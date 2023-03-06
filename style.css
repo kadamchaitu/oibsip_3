@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Century;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #0c2d48;
+}
+.headings {
+  font-size: 45px;
+  text-align: center;
+  font-family: Century;
+  color: aliceblue;
+}
+
+.image_therm {
+  height: 90px;
+  width: 90px;
+}
+form {
+  background-color: #2e8bc0;
+  padding: 80px;
+  margin: 100px auto;
+  text-align: center;
+  box-shadow: 0 10px 6px -6px #3c3368;
+}
+
+#tempCalc label {
+  font-size: 35px;
+}
+
+#temp {
+  border: none;
+  height: 40px;
+  padding: 10px;
+  width: 100px;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#temp_diff {
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+[type="submit"] {
+  height: 35px;
+  margin: 20px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 25px;
+}
+
+#result_container {
+  font-size: 35px;
+}
